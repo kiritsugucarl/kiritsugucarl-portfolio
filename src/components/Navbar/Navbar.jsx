@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/no-unknown-property */
+import ResumePDF from '../../assets/resume.pdf'
 import './Navbar.css'
 
 const Navbar = ({isMobileNavOpen, onMobileMenuToggle, toggleTheme}) =>{
@@ -36,7 +37,7 @@ const Navbar = ({isMobileNavOpen, onMobileMenuToggle, toggleTheme}) =>{
                             </button>
                         </li>
                         <li>
-                            <a className='header__resume btn red-btn' href='#'>Resume</a>
+                            <a className='header__resume btn red-btn' href={ResumePDF} download='resume.pdf'>Resume</a>
                         </li>
                     </ul>
                     <button className='header__menuButton' onClick={() => onMobileMenuToggle(!isMobileNavOpen)}>
@@ -68,7 +69,7 @@ const Navbar = ({isMobileNavOpen, onMobileMenuToggle, toggleTheme}) =>{
                                 </button>
                             </li>
                             <li>
-                                <a className='mobile-nav__btn btn red-btn' href=''>Resume</a>
+                                <a className='mobile-nav__btn btn red-btn' href={ResumePDF} download='resume.pdf'>Resume</a>
                             </li>
                         </ul>
                     </nav>

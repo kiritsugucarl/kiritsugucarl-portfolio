@@ -16,6 +16,7 @@
 }
 
 .featured__link {
+    color: var(--clr-rose);
     width: var(--size-2xl);
     height: var(--size-2xl);
 }
