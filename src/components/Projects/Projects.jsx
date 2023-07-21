@@ -23,8 +23,8 @@ const Projects = () =>{
                     <p className='projects__project-description1'>An e-commerce website that was made for completion for my Second Year College. The website used PHP, CSS, MYSql and I used prepared statements of PHP here.</p>
                     <p className='projects__project-description2'>I was mainly in charge with the backend, the database, and some problems that occur within the UI itself.</p>
                     <div className="projects__project-button-wrapper">
-                        <a href='' className='projects__project-btn btn red-btn'>Github</a>
-                        <a href='' className='projects__project-btn btn red-btn'>Website</a>
+                        <a href='https://github.com/kiritsugucarl/Kaimono' className='projects__project-btn btn red-btn' target='_blank' rel="noreferrer">Github</a>
+                        {/* <a href='' className='projects__project-btn btn red-btn'>Website</a> */}
                     </div>
                 </div>
 
@@ -38,8 +38,8 @@ const Projects = () =>{
                     <p className='projects__project-description1'>A school database system where the admin could enroll a student. Made with PHP, CSS, and MySQL.</p>
                     <p className='projects__project-description2'>I was mainly in charge with the backend, the database, and again, problems that occur within the UI.</p>
                     <div className="projects__project-button-wrapper">
-                        <a href='' className='projects__project-btn btn red-btn'>Github</a>
-                        <a href='' className='projects__project-btn btn red-btn'>Website</a>
+                        <a href='https://github.com/kiritsugucarl/Ouran-Academy' className='projects__project-btn btn red-btn' target='_blank' rel="noreferrer">Github</a>
+                        {/* <a href='' className='projects__project-btn btn red-btn'>Website</a> */}
                     </div>
                 </div>
 
@@ -53,8 +53,8 @@ const Projects = () =>{
                     <p className='projects__project-description1'>A calculator with a lot of special effects. Made with PHP and CSS.</p>
                     <p className='projects__project-description2'>I contributed upon the design ideas, and created the PHP codes, and helped with the effects the site has.</p>
                     <div className="projects__project-button-wrapper">
-                        <a href='' className='projects__project-btn btn red-btn'>Github</a>
-                        <a href='' className='projects__project-btn btn red-btn'>Website</a>
+                        <a href='https://github.com/kiritsugucarl/folder-calculator' className='projects__project-btn btn red-btn' target='_blank' rel="noreferrer">Github</a>
+                        <a href='http://kiritusugucarl-foldercalculator.free.nf/?i=1' className='projects__project-btn btn red-btn' target='_blank' rel="noreferrer">Website</a>
                     </div>
                 </div>
 
@@ -69,8 +69,8 @@ const Projects = () =>{
                     </p>
                     <p className='projects__project-description2'>I was the one who created all the functions in the app. It has Login, Register, and a database connected to the activities within the app.</p>
                     <div className="projects__project-button-wrapper">
-                        <a href='' className='projects__project-btn btn red-btn'>Github</a>
-                        <a href='' className='projects__project-btn btn red-btn'>Website</a>
+                        <a href='https://github.com/kiritsugucarl/GohanPOS' className='projects__project-btn btn red-btn' target='_blank' rel="noreferrer">Github</a>
+                        <a href='' className='projects__project-btn btn red-btn' target='_blank' rel="noreferrer">Drive</a>
                     </div>
                 </div>
 
@@ -84,8 +84,7 @@ const Projects = () =>{
                     <p className='projects__project-description1'>A game that was made using Unity C#. Part of me being an hobbyist.</p>
                     <p className='projects__project-description2'>It involved various amounts of scripting, level design, and of course music and the UI designing</p>
                     <div className="projects__project-button-wrapper">
-                        <a href='' className='projects__project-btn btn red-btn'>Github</a>
-                        <a href='' className='projects__project-btn btn red-btn'>Website</a>
+                        <a href='https://drive.google.com/file/d/1gMt5lALRAUnbYzpXG0ayHd2gQ8BbaDUH/view?usp=sharing' className='projects__project-btn btn red-btn' target='_blank' rel="noreferrer">Drive</a>
                     </div>
                 </div>
             </div>
