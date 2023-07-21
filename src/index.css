@@ -39,8 +39,19 @@ html {
     scroll-behavior: smooth;
 }
 
+.light-mode {
+    --clr-dark: #f1f5f9;
+    --clr-light: #070a13;
+    --clr-zinc400: #27272a;
+    --clr-zinc600: #27272a;
+    --clr-zinc800: #27272a;
+}
+
 body {
     font-family: "Convergence", sans-serif;
+}
+
+.page-wrapper {
     background-color: var(--clr-dark);
     color: var(--clr-light);
 }

@@ -10,7 +10,7 @@ import featured6 from '../../assets/featured-project/featured__06.png'
 
 const FeaturedProjects = () =>{
     return(
-        <section className='featured container section'>
+        <section id='featured' className='featured container section'>
             <h3 className='featured__subtitle'>Featured Project</h3>
             <div className="featured__title-wrapper">
                 <h2 className='featured__title'>Social Welfare System</h2>
@@ -47,25 +47,25 @@ const FeaturedProjects = () =>{
             </div>
             <div className="featured__img-container">
                 <div className='featured__img-wrapper'>
-                    <img className='featured__img' src={featured0} alt=''/>
+                    <img className='featured__img' src={featured0} alt='' loading="lazy"/>
                 </div>
                 <div className='featured__img-wrapper'>
-                    <img className='featured__img' src={featured1} alt=''/>
+                    <img className='featured__img' src={featured1} alt='' loading="lazy"/>
                 </div>
                 <div className='featured__img-wrapper'>
-                    <img className='featured__img' src={featured2} alt=''/>
+                    <img className='featured__img' src={featured2} alt='' loading="lazy"/>
                 </div>
                 <div className='featured__img-wrapper'>
-                    <img className='featured__img' src={featured3} alt=''/>
+                    <img className='featured__img' src={featured3} alt='' loading="lazy"/>
                 </div>
                 <div className='featured__img-wrapper'>
-                    <img className='featured__img' src={featured4} alt=''/>
+                    <img className='featured__img' src={featured4} alt='' loading="lazy"/>
                 </div>
                 <div className='featured__img-wrapper'>
-                    <img className='featured__img' src={featured5} alt=''/>
+                    <img className='featured__img' src={featured5} alt='' loading="lazy"/>
                 </div>
                 <div className='featured__img-wrapper'>
-                    <img className='featured__img' src={featured6} alt=''/>
+                    <img className='featured__img' src={featured6} alt='' loading="lazy"/>
                 </div>
             </div>
         </section>

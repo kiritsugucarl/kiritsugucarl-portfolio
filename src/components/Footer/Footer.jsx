@@ -1,8 +1,10 @@
+import './Footer.css'
+
 const Footer = () =>{
     return(
-        <section>
-            Footer
-        </section>
+        <footer className='footer container section'>
+            <h3 className='footer__title'>~ Kiritsugucarl ~</h3>
+        </footer>
     )
 }
 

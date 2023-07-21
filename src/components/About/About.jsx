@@ -3,7 +3,7 @@ import './About.css'
 
 const About = () =>{
     return(
-        <section className="about container section">
+        <section id='about' className="about container section">
             <div className='about__content'>
                 <h2 className='about__title'>ABOUT</h2>
                 <p className='about__description'>
@@ -40,7 +40,7 @@ const About = () =>{
                 </div>
             </div>
             <div className='about__img-wrapper'>
-                <img className='about__img' src={aboutImg}/>
+                <img className='about__img' src={aboutImg} loading="lazy"/>
             </div>
         </section>
     )
