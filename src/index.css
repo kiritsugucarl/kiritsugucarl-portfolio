@@ -54,6 +54,8 @@ body {
 .page-wrapper {
     background-color: var(--clr-dark);
     color: var(--clr-light);
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 img,
