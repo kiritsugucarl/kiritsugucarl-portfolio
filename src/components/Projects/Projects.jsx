@@ -3,6 +3,8 @@ import projectImg1 from '../../assets/projects/ouran_academy.png'
 import projectImg2 from '../../assets/projects/folder_calculator.png'
 import projectImg3 from '../../assets/projects/gohan.png'
 import projectImg4 from '../../assets/projects/gravity_run.jpg'
+import projectImg5 from '../../assets/projects/momz_buffet.png'
+import projectImg6 from '../../assets/projects/bird_in_space.png'
 import './Projects.css'
 
 const Projects = () =>{
@@ -85,6 +87,35 @@ const Projects = () =>{
                     <p className='projects__project-description2'>It involved various amounts of scripting, level design, and of course music and the UI designing</p>
                     <div className="projects__project-button-wrapper">
                         <a href='https://drive.google.com/file/d/1gMt5lALRAUnbYzpXG0ayHd2gQ8BbaDUH/view?usp=sharing' className='projects__project-btn btn red-btn' target='_blank' rel="noreferrer">Drive</a>
+                    </div>
+                </div>
+
+                {/* Project 6 */}
+                <h3 className='projects__project-title'>Momz Buffet</h3>
+                <div className="projects__project-img-wrapper projects__image6">
+                    <img className='projects__project-img' src={projectImg5} alt='' loading="lazy"/>
+                </div>
+                <div className="projects__project projects__content6">
+                    <h3 className='projects__project-subtitle'>Momz Buffet</h3>
+                    <p className='projects__project-description1'>A mock-up commerce website for buffet restaurant made with ReactJs and CSS</p>
+                    <p className='projects__project-description2'>It involved various UI/UX desiging and a step further in making websites for businesses.</p>
+                    <div className="projects__project-button-wrapper">
+                        <a href='https://github.com/kiritsugucarl/momz-buffet' className='projects__project-btn btn red-btn' target='_blank' rel="noreferrer">Github</a>
+                        <a href='https://momz-buffet.vercel.app/' className='projects__project-btn btn red-btn' target='_blank' rel="noreferrer">Website</a>
+                    </div>
+                </div>
+
+                {/* Project 7 */}
+                <h3 className='projects__project-title'>Bird in the Space</h3>
+                <div className="projects__project-img-wrapper projects__image7">
+                    <img className='projects__project-img' src={projectImg6} alt='' loading="lazy"/>
+                </div>
+                <div className="projects__project projects__content7">
+                    <h3 className='projects__project-subtitle'>Bird in the Space</h3>
+                    <p className='projects__project-description1'>A game that was made using Pygame, a final requirement for our Game Analysis during my Third Year of College.</p>
+                    <p className='projects__project-description2'>I was the one who was assigned to make the game, and there was actually two, but decided to only display this one. It involved hard-coded animations that I felt was so innovative for design especially for my first game in Python.</p>
+                    <div className="projects__project-button-wrapper">
+                        <a href='https://github.com/kiritsugucarl/Game-Analysis-Finals/tree/master/bird_in_the_space_game' className='projects__project-btn btn red-btn' target='_blank' rel="noreferrer">Github</a>
                     </div>
                 </div>
             </div>

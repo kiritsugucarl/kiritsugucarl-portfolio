@@ -115,7 +115,9 @@
             "content2 image2"
             "image3 content3"
             "content4 image4"
-            "image5 content5";
+            "image5 content5"
+            "content6 image6"
+            "image7 content7";
         place-items: center;
     }
 
@@ -139,6 +141,14 @@
         grid-area: image5;
     }
 
+    .projects__image6 {
+        grid-area: image6;
+    }
+
+    .projects__image7 {
+        grid-area: image7;
+    }
+
     .projects__content1 {
         grid-area: content1;
     }
@@ -157,6 +167,14 @@
 
     .projects__content5 {
         grid-area: content5;
+    }
+
+    .projects__content6 {
+        grid-area: content6;
+    }
+
+    .projects__content7 {
+        grid-area: content7;
     }
 
     .projects__project {

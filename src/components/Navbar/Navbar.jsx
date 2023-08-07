@@ -15,17 +15,17 @@ const Navbar = ({isMobileNavOpen, onMobileMenuToggle, toggleTheme}) =>{
                     <ul className='header__menu'>
                         <li>
                             <a href='#about' className='header__link'>
-                                About
+                                ABOUT
                             </a>
                         </li>
                         <li>
                             <a href='#featured' className='header__link'>
-                                Projects
+                                PROJECTS
                             </a>
                         </li>
                         <li>
                             <a href='#contact' className='header__link'>
-                                Contact
+                                CONTACT
                             </a>
                         </li>
                         <li className='header__line'></li>
@@ -52,13 +52,25 @@ const Navbar = ({isMobileNavOpen, onMobileMenuToggle, toggleTheme}) =>{
                     <nav>
                         <ul className='mobile-nav__menu'>
                             <li>
-                                <a className='mobile-nav__link' href='#about' onClick={handleMobileLinkClick}>About</a>
+                                <a className='mobile-nav__link' 
+                                href='#about' 
+                                onClick={handleMobileLinkClick}>
+                                    ABOUT
+                                </a>
                             </li>
                             <li>
-                                <a className='mobile-nav__link' href='#featured' onClick={handleMobileLinkClick}>Projects</a>
+                                <a className='mobile-nav__link' 
+                                href='#featured' 
+                                onClick={handleMobileLinkClick}>
+                                    PROJECTS
+                                </a>
                             </li>
                             <li>
-                                <a className='mobile-nav__link' href='#contact' onClick={handleMobileLinkClick}>Contact</a>
+                                <a className='mobile-nav__link' 
+                                href='#contact' 
+                                onClick={handleMobileLinkClick}>
+                                    CONTACT
+                                </a>
                             </li>
                             <li className='mobile-nav__line'></li>
                             <li>
