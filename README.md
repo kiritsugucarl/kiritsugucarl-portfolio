@@ -9,4 +9,5 @@ Available at <a href="https://kiritsugucarl-portfolio.vercel.app/" target="__bla
 - :atom: JavaScript
 
 # logs
-- Last updated on August 7, 2023 to update projects shown.
+- August 7, 2023: update projects shown.
+- August 8, 2023: fixed navbar bug, scrollable even on mobile nav
