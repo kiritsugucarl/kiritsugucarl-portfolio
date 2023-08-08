@@ -13,7 +13,14 @@ const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(true);
 
   const handleMobileMenuToggle = () => {
-    setIsMobileNavOpen(!isMobileNavOpen)
+    setIsMobileNavOpen(!isMobileNavOpen);
+
+    // Toggle body overflow when mobile navigation is active
+    if (!isMobileNavOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+        document.body.style.overflow = "auto";
+    }
   }
 
   // Function to handle theme switch

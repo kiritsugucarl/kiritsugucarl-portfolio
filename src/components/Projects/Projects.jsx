@@ -5,6 +5,7 @@ import projectImg3 from '../../assets/projects/gohan.png'
 import projectImg4 from '../../assets/projects/gravity_run.jpg'
 import projectImg5 from '../../assets/projects/momz_buffet.png'
 import projectImg6 from '../../assets/projects/bird_in_space.png'
+import projectImg7 from '../../assets/projects/dm_portfolio.png'
 import './Projects.css'
 
 const Projects = () =>{
@@ -116,6 +117,21 @@ const Projects = () =>{
                     <p className='projects__project-description2'>I was the one who was assigned to make the game, and there was actually two, but decided to only display this one. It involved hard-coded animations that I felt was so innovative for design especially for my first game in Python.</p>
                     <div className="projects__project-button-wrapper">
                         <a href='https://github.com/kiritsugucarl/Game-Analysis-Finals/tree/master/bird_in_the_space_game' className='projects__project-btn btn red-btn' target='_blank' rel="noreferrer">Github</a>
+                    </div>
+                </div>
+
+                {/* Project 8 */}
+                <h3 className='projects__project-title'>Discrete Math Portfolio</h3>
+                <div className="projects__project-img-wrapper projects__image8">
+                    <img className='projects__project-img' src={projectImg7} alt='' loading="lazy"/>
+                </div>
+                <div className="projects__project projects__content8">
+                    <h3 className='projects__project-subtitle'>Discrete Math Portfolio</h3>
+                    <p className='projects__project-description1'>A personal portfolio that was made for a Final Requireent during my Second Year in College. Made with HTML CSS Bootstrap</p>
+                    <p className='projects__project-description2'>This isn&apos;t the first time that I used Bootstrap. I actually used them a lot before, but this project was by far the one I want to display since I also incorporated own designing in this website.</p>
+                    <div className="projects__project-button-wrapper">
+                    <a href='https://github.com/kiritsugucarl/dm-portfolio' className='projects__project-btn btn red-btn' target='_blank' rel="noreferrer">Github</a>
+                        <a href='https://kiritsugucarl.github.io/dm-portfolio/' className='projects__project-btn btn red-btn' target='_blank' rel="noreferrer">Website</a>
                     </div>
                 </div>
             </div>

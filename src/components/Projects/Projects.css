@@ -117,7 +117,8 @@
             "content4 image4"
             "image5 content5"
             "content6 image6"
-            "image7 content7";
+            "image7 content7"
+            "content8 image8";
         place-items: center;
     }
 
@@ -149,6 +150,10 @@
         grid-area: image7;
     }
 
+    .projects__image8 {
+        grid-area: image8;
+    }
+
     .projects__content1 {
         grid-area: content1;
     }
@@ -175,6 +180,10 @@
 
     .projects__content7 {
         grid-area: content7;
+    }
+
+    .projects__content8 {
+        grid-area: content8;
     }
 
     .projects__project {
