@@ -100,7 +100,7 @@
     }
 
     .header__link {
-        font-size: var(--size-xs);
+        font-size: var(--size-sm);
         text-decoration: none;
         font-weight: 600;
         color: var(--clr-slate600);
@@ -130,14 +130,14 @@
     }
 
     .header__resume {
-        font-size: var(--size-xs);
+        font-size: var(--size-sm);
     }
 }
 
 /* lg */
 @media (min-width: 1024px) {
     .header__link {
-        font-size: var(--size-sm);
+        font-size: var(--size-base);
     }
 
     .header__switch {
@@ -146,7 +146,7 @@
     }
 
     .header__resume {
-        font-size: var(--size-sm);
+        font-size: var(--size-base);
     }
 }
 
