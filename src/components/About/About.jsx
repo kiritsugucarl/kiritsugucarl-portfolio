@@ -7,11 +7,9 @@ const About = () => {
             <div className="about__content">
                 <h2 className="about__title">ABOUT</h2>
                 <p className="about__description">
-                    Hi! I’m Carl Dennis Pineda, an aspiring{" "}
-                    <strong>Front-end / Fullstack </strong> web developer, based
-                    in Pasig City. Everyday, I find some problems or things that
-                    I want to figure out and ends the day by figuring them out
-                    especially in tech.
+                    Hi! I’m Carl Dennis Pineda, a{" "}
+                    <strong>Software Engineer</strong> that is striving for more
+                    in the tech industry.
                 </p>
                 <p className="about__description">
                     I specialize on delivering solutions in various problems and
@@ -24,8 +22,9 @@ const About = () => {
                     why I love coding and programming in general.
                 </p>
                 <p className="about__description">
-                    Currently enrolled in Rizal Technological University - Boni
-                    Campus, 4th year and will be graduating soon!
+                    Currently employed as software engineer in{" "}
+                    <strong>Collabera Digital</strong> where I show the skills I
+                    have nurtured over the years.
                 </p>
                 <hr className="about__hr" />
                 <h3 className="about__subtitle">Technologies:</h3>
@@ -46,6 +45,7 @@ const About = () => {
                         <li className="about__list">Python</li>
                         <li className="about__list">Flask</li>
                         <li className="about__list">C#</li>
+                        <li className="about__list">Linux/UNIX</li>
                         <li className="about__list">MySQL</li>
                         <li className="about__list">Firebase</li>
                         <li className="about__list">Bootstrap</li>
