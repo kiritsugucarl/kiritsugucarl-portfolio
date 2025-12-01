@@ -12,4 +12,5 @@ Available at <a href="https://kiritsugucarl-portfolio.vercel.app/" target="__bla
 - August 7, 2023: update projects shown.
 - August 8, 2023: fixed navbar bug, scrollable even on mobile nav
 - April 4, 2024: update contents.
+- October 13, 2024: update contents.
 - December 2, 2025: update contents based on current work standard.
