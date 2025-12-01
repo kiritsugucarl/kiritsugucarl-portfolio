@@ -13,7 +13,7 @@ const FeaturedProjects = () => {
                 <h2 className="featured__title">musictaste.me</h2>
                 <a
                     className="featured__link"
-                    href="https://musictaste.me"
+                    href="https://musictaste-me-git-main-kiritsugucarls-projects.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                 >
