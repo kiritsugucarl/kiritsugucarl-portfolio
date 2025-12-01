@@ -35,9 +35,9 @@ const Projects = () => {
                         Social Welfare System
                     </h3>
                     <p className="projects__project-description1">
-                        A system that was commissioned by Congressman Neptali
-                        Gonzales to Rizal Technological University and was my
-                        OJT from December 2022 - January 2024.
+                        A system that was produced as Web Developer Intern for
+                        Congressman Neptali Gonzales from December 2022 -
+                        January 2024.
                     </p>
                     <p className="projects__project-description2">
                         I was the team leader and was in charge for the user
