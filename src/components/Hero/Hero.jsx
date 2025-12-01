@@ -16,7 +16,8 @@ const Hero = () => {
                 <strong>solving problems and creating innovative ideas</strong>{" "}
                 when developing features. */}
                 A passionate <strong>software engineer</strong> currently
-                working at <strong>Collabera Digital</strong> showing{" "}
+                working at <strong>Ascendion</strong>{" "}
+                <i>(formerly Collabera Digital)</i> showing{" "}
                 <strong>efficiency and dedication</strong> to fix issues, apply
                 changes, that will further <strong> benefit businesses</strong>
             </p>
