@@ -31,17 +31,21 @@ const FeaturedProjects = () => {
                 </a>
             </div>
             <p className="featured__description">
-                This is my most recent project and is used for our capstone
-                completion in Rizal Technological University. I am the leader of
-                the capstone team and it features a web application that can be
-                used to identify a music taste of a person based on their input,
-                as well as their music personality.
+                This is the latest project that was used in college and was used
+                for our capstone completion in Rizal Technological University. I
+                am the leader of the capstone team and it features a web
+                application that can be used to identify a music taste of a
+                person based on their input, as well as their music personality.
             </p>
             <p className="featured__description">
                 The project uses different microservices thus allowing me which
                 is the lead developer for this project to master the various
                 advantages of ReactJs, utilization of API usages, as well as
                 creating algorithms to get desired results.
+            </p>
+            <p className="featured__description">
+                As of now, the site has been <strong>discontinued</strong> so
+                the link that is present here is just a preview due to costs.
             </p>
 
             <div className="featured__info-wrapper">

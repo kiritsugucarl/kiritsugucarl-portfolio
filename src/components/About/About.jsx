@@ -1,4 +1,4 @@
-import aboutImg from "/dp.png";
+import aboutImg from "/dp.jpg";
 import "./About.css";
 
 const About = () => {
@@ -8,23 +8,26 @@ const About = () => {
                 <h2 className="about__title">ABOUT</h2>
                 <p className="about__description">
                     Hi! I’m Carl Dennis Pineda, a{" "}
-                    <strong>Software Engineer</strong> that is striving for more
-                    in the tech industry.
+                    <strong>Software Engineer</strong> that is currently looking
+                    for more opportunities to further oneself in the tech
+                    industry
                 </p>
                 <p className="about__description">
-                    I specialize on delivering solutions in various problems and
-                    challenges in the modern day client requirements.
-                    Design-wise or feature-wise, I deliver the requirement with
-                    satisfaction to meet the client&apos;s needs
+                    For my past experience, I have specialized in creating
+                    scripts in <strong>bash</strong> and automating/creating{" "}
+                    <strong>macros</strong> for less manual workload in the
+                    project I was deployed on.
                 </p>
                 <p className="about__description">
-                    I started as an hobbyist, but as time passes by, I realized
-                    why I love coding and programming in general.
+                    Hobbyist during studying days, realized that solving
+                    problems and integrating different things together is fun in
+                    work.
                 </p>
                 <p className="about__description">
-                    Currently employed as software engineer in{" "}
-                    <strong>Collabera Digital</strong> where I show the skills I
-                    have nurtured over the years.
+                    Currently employed as a Software Engineer in{" "}
+                    <strong>Ascendion Philippines</strong> where I show the
+                    skills I have nurtured over the years of studying and a
+                    year-worth experience in the professional corporate setting.
                 </p>
                 <hr className="about__hr" />
                 <h3 className="about__subtitle">Technologies:</h3>
@@ -33,9 +36,10 @@ const About = () => {
                         <li className="about__list">HTML</li>
                         <li className="about__list">CSS</li>
                         <li className="about__list">JavaScript (ES6+)</li>
-                        <li className="about__list">ReactJs</li>
-                        <li className="about__list">React Native</li>
-                        <li className="about__list">Ionic Capacitor</li>
+                        <li className="about__list">React Framework</li>
+                        <li className="about__list">Shell Scripting</li>
+                        <li className="about__list">VB Scripting</li>
+                        <li className="about__list">Perl</li>
                         <li className="about__list">PHP</li>
                         <li className="about__list">Node.js</li>
                         <li className="about__list">Express.js</li>
@@ -43,10 +47,11 @@ const About = () => {
                     <ul className="about__ul">
                         <li className="about__list">Java</li>
                         <li className="about__list">Python</li>
-                        <li className="about__list">Flask</li>
+                        <li className="about__list">Power Automate</li>
                         <li className="about__list">C#</li>
                         <li className="about__list">Linux/UNIX</li>
                         <li className="about__list">MySQL</li>
+                        <li className="about__list">PostgreSQL</li>
                         <li className="about__list">Firebase</li>
                         <li className="about__list">Bootstrap</li>
                         <li className="about__list">Git</li>
